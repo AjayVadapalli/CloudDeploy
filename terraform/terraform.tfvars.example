@@ -1,0 +1,8 @@
+aws_region       = "us-east-1"
+github_owner     = "YOUR_GITHUB_OWNER"
+github_repository = "YOUR_REPOSITORY"
+github_branch    = "main"
+# Provide the URI of an already-pushed ECR image before creating the ECS service.
+image_uri        = "123456789012.dkr.ecr.us-east-1.amazonaws.com/ecs-spring-api:bootstrap"
+# RDS can be costly; enable only for the database learning exercise.
+enable_rds       = false

@@ -1,0 +1,15 @@
+.git
+.github
+.idea
+.vscode
+target
+terraform/**/.terraform
+terraform/**/*.tfstate*
+terraform/**/*.tfvars
+terraform/
+hello_world_django_app/
+db.sqlite3
+**/__pycache__
+*.pyc
+docs
+README.md
